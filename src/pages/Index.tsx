@@ -199,7 +199,7 @@ const Index = () => {
                 <p className="text-muted-foreground">Реализованных проектов</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">8 лет</div>
+                <div className="text-4xl font-bold text-primary mb-2">20 лет</div>
                 <p className="text-muted-foreground">На рынке дизайна и ремонта</p>
               </div>
               <div className="text-center">
@@ -304,7 +304,7 @@ const Index = () => {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-lg leading-relaxed mb-6">
-                Вы ищете надёжную компанию по <strong>ремонту квартир в Краснодаре</strong>? Хотите сделать косметический, капитальный или евроремонт без стресса и задержек? Мы — команда опытных мастеров, которая уже более 8 лет помогает жителям Краснодарского края превращать жильё в уютное и стильное пространство.
+                Вы ищете надёжную компанию по <strong>ремонту квартир в Краснодаре</strong>? Хотите сделать косметический, капитальный или евроремонт без стресса и задержек? Мы — команда опытных мастеров, которая уже более 20 лет помогает жителям Краснодарского края превращать жильё в уютное и стильное пространство.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 my-8">
