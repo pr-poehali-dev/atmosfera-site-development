@@ -122,10 +122,13 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <header className="bg-white border-b sticky top-0 z-50 shadow-sm">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <Icon name="Home" size={28} className="text-primary" />
-            <span className="text-2xl font-bold text-primary">Атмосфера</span>
+        <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/4a1c7245-dc32-4192-a9bc-1656b648a555.jpeg" 
+              alt="Атмосфера - студия дизайна и ремонта"
+              className="h-12 w-auto object-contain"
+            />
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="text-foreground hover:text-primary transition">Услуги</a>
