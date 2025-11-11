@@ -140,7 +140,7 @@ const Index = () => {
             <a href="#calculator" className="text-foreground hover:text-primary transition">Цены</a>
             <a href="#contact" className="text-foreground hover:text-primary transition">Контакты</a>
           </nav>
-          <Button className="hidden md:inline-flex">
+          <Button className="hidden md:inline-flex" style={{backgroundColor: '#9B7E4F', color: 'white'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#8A6F42'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#9B7E4F'}>
             <Icon name="Phone" size={16} className="mr-2" />
             Позвонить
           </Button>
