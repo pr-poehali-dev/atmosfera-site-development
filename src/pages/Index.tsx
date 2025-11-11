@@ -130,8 +130,8 @@ const Index = () => {
               className="h-12 w-auto object-contain"
             />
             <div className="hidden sm:block">
-              <div className="text-xl font-bold text-primary leading-tight">Атмосфера</div>
-              <div className="text-xs text-muted-foreground">Студия дизайна и ремонта</div>
+              <div className="text-xl font-bold leading-tight" style={{color: '#9B7E4F'}}>Атмосфера</div>
+              <div className="text-xs" style={{color: '#9B7E4F', opacity: 0.7}}>Студия дизайна и ремонта</div>
             </div>
           </div>
           <nav className="hidden md:flex gap-6">
@@ -617,8 +617,8 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Icon name="Home" size={28} className="text-secondary" />
-                <span className="text-2xl font-bold">Атмосфера</span>
+                <Icon name="Home" size={28} style={{color: '#9B7E4F'}} />
+                <span className="text-2xl font-bold" style={{color: '#9B7E4F'}}>Атмосфера</span>
               </div>
               <p className="text-background/80 mb-6">
                 Студия дизайна и ремонта<br />
